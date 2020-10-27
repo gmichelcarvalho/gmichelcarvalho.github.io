@@ -1,5 +1,6 @@
 ## Guilherme Michel Lima de Carvalho
 
+[Link](https://www.linkedin.com/in/gmichelcarvalho/)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -22,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](https://www.linkedin.com/in/gmichelcarvalho/) and ![Image](src)
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
