@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://gmichelcarvalho.github.io/sitemap.xml
