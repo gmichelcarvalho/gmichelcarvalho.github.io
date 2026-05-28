@@ -6,7 +6,7 @@ subtitle: Senior Data Scientist
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: michel_carvalho.webp
   image_circular: false
   more_info: >
     <p>gmichelcarvalho@gmail.com</p>
