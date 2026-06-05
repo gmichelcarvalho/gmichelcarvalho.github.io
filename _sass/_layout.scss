@@ -1,0 +1,59 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+@use "variables" as v;
+
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 80px;
+  }
+}
+
+body.fixed-top-nav {
+  // Increased padding so the fixed navbar never overlaps content.
+  padding-top: 75px;
+}
+
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: v.$max-content-width;
+}
+
+// Navbar: fully opaque so content scrolling behind it isn't visible.
+.navbar {
+  opacity: 1 !important;
+}
+
+// Profile
+.profile {
+  img {
+    width: 100%;
+  }
+}
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// Publications layout is defined in _includes/bib_search.liquid
+// Uses jekyll-scholar for BibTeX parsing and Bootstrap cards for display
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.
