@@ -63,22 +63,6 @@ cv:
         start_date: 2019
         end_date: 2022
 
-      - name: Chess Study Group — IMECC UNICAMP
-        summary: "Co-founded the Chess Study Group of IMECC in 2016. The group consisted of weekly study of chess theory and participation in chess tournaments representing UNICAMP."
-        start_date: 2016
-        end_date: 2018
-
-    Awards:
-      - title: "1st Place — University Chess Tournament, São Paulo State"
-        date: 2017
-        awarder: University Chess Tournament
-        summary: First place in the chess tournament by teams in São Paulo state, representing UNICAMP.
-
-      - title: "3rd Place — University Chess Tournament, São Paulo State"
-        date: 2016
-        awarder: University Chess Tournament
-        summary: Third place in the chess tournament by teams in São Paulo state, representing UNICAMP.
-
     Skills:
       - name: Machine Learning & Data Science
         icon: fa-solid fa-brain
