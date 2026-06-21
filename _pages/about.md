@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Data Scientist
+subtitle: Data Scientist
 
 profile:
   align: right
@@ -12,20 +12,25 @@ profile:
     <p>michel.carvalho.math@gmail.com</p>
     <p>Campinas-SP, Brazil</p>
 
-selected_papers: false # set to true when you add papers to _bibliography/papers.bib
+selected_papers: false
 social: true
 
 announcements:
   enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true
-  limit: 3
+  enabled: false
 ---
 
-I'm Michel Carvalho, a Senior Data Scientist at [Equifax | Boa Vista](https://www.boavistascpc.com.br/), building models for the credit market. I hold an M.Sc. in Statistics from USP/UFSCar and a B.Sc. in Applied and Computational Mathematics from UNICAMP.
+I'm Guilherme Michel Lima de Carvalho, a Data Scientist at [Boa Vista SCPC](https://www.boavistascpc.com.br/) (Jan 2023 – present), working on credit scoring models and risk analytics.
 
-My main research interests lie at the intersection of **Graph Machine Learning**, **Complex Networks**, and **Dynamical Processes** — with a focus on applying Graph Neural Networks to study phenomena such as rumor spreading and community detection on graphs.
+**Education**
 
-I work primarily with **Python**, **SQL**, and **R**, and I'm passionate about the mathematical foundations behind modern ML systems. 
+- M.Sc. in Statistics — USP / UFSCar (PIPGES), 2019–2022
+- B.Sc. in Applied and Computational Mathematics — IMECC / UNICAMP, 2014–2018
+
+**Research**
+
+During my master's, I focused on machine learning methods for graph-structured data. I applied Graph Neural Network (GNN) models to study dynamical processes on complex networks — in particular, rumor spreading — and investigated GNN-based community detection in an unsupervised setting.
+
+**Interests**: Graph Machine Learning · Complex Networks · Statistical Learning · Deep Learning
