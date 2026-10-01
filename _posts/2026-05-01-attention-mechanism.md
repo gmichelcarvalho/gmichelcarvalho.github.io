@@ -4,12 +4,12 @@ title: "Attention Is All You Need — a close reading"
 date: 2026-05-01 12:00:00
 description: A careful walk-through of the original Transformer paper, with derivations and intuitions for the attention mechanism.
 tags: [deep-learning, nlp, tutorial]
-categories: []
+categories: []               
 related_posts: false
 toc:
-  sidebar: left
+  sidebar: left       
 ---
-
+               
 The 2017 paper *Attention Is All You Need* (Vaswani et al.) replaced recurrence with self-attention and became the backbone of nearly every modern NLP system. This post walks through the key ideas carefully, with derivations.
 
 ## Scaled Dot-Product Attention
@@ -18,9 +18,9 @@ Given queries $$Q \in \mathbb{R}^{n \times d_k}$$, keys $$K \in \mathbb{R}^{m \t
 
 $$\text{Attention}(Q, K, V) = \text{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}}\right)V$$
 
-The $$\sqrt{d_k}$$ scaling factor is often glossed over, but it matters: without it, dot products grow large in magnitude as $$d_k$$ grows, pushing the softmax into regions with very small gradients.
-
-### Why dot products grow
+The $$\sqrt{d_k}$$ scaling factor is often glossed over, but it matters: without it, dot products grow large in magnitude as $$d_k$$ grows, pushing the softmax into regions with very small gradients.             
+                                     
+### Why dot products grow                                   
 
 If $$q$$ and $$k$$ are independent random vectors with zero mean and unit variance components, then:
 

@@ -22,7 +22,7 @@ latest_posts:
   enabled: false
 ---
 
-I'm Guilherme Michel Lima de Carvalho, a Data Scientist at [Boa Vista SCPC](https://www.boavistascpc.com.br/) (Jan 2023 – present), working on credit scoring models and risk analytics.
+I'm Guilherme Michel Lima de Carvalho, a Senior Data Scientist at [Equifax](https://www.equifax.com.br/) (Jan 2023 – present), working on credit scoring models and risk analytics.
 
 **Education**
 
